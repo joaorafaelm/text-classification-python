@@ -93,15 +93,6 @@ def fetch():
                 description = b' '.join(description) if description else ''
                 page_title = b''.join(page_title) if page_title else ''
 
-                # data = {
-                #     'identifier': identifier.decode('utf-8'),
-                #     'name': name.decode('utf-8'),
-                #     'category': category.decode('utf-8'),
-                #     'features': features.decode('utf-8'),
-                #     'description': description.decode('utf-8'),
-                #     'status': str(page.status_code)
-                # }
-                #
                 data = {
                     'identifier': identifier,
                     'name': name,
