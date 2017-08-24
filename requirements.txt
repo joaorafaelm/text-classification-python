@@ -1,0 +1,14 @@
+# Install if you gonna scrape amazon
+lxml==3.8.0
+requests==2.18.3
+dataset==0.8.0
+
+# Scikit
+scipy==0.19.1
+numpy==1.13.1
+scikit-learn==0.18.2
+nltk==3.2.4
+
+# Plotting libs
+matplotlib==2.0.2
+seaborn==0.8

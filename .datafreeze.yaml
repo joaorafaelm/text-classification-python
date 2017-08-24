@@ -1,0 +1,10 @@
+common:
+
+  database: "sqlite:///dataset.db"
+  prefix: dumps/
+  format: json
+
+exports:
+
+  - query: "SELECT identifier, name, category, description, features FROM products where category != '' and (description != '' or features != '' or name != '')"
+    filename: "all_products.json"
