@@ -26,6 +26,8 @@ PROXY_SUB = [
 ]
 
 # Gmodules proxy url, you can set the cache time using the *refresh* param.
+# Disguise the request as a google bot using an actual google server.
+# *** do not tell google that ***
 PROXY = 'gmodules.com/gadgets/proxy?refresh=0&' \
         'container=gplus&gadgets=http%3A%2F%2Forkut.com%2Fimg.xml&url='
 
