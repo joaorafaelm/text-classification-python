@@ -49,3 +49,4 @@ The script will create a new file called **products.json** at the root of the pr
 ```bash
 python classify.py
 ```
+It will print out the accuracy of each category, along with the confusion matrix.
