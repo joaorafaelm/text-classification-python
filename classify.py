@@ -4,8 +4,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.stop_words import ENGLISH_STOP_WORDS
 from sklearn.pipeline import Pipeline
 from sklearn.linear_model import SGDClassifier
-from sklearn.naive_bayes import MultinomialNB
-from sklearn.svm import LinearSVC
 from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.model_selection import cross_val_predict
 from nltk.stem.wordnet import WordNetLemmatizer
@@ -52,8 +50,6 @@ pipeline = Pipeline([
     ('classifier', SGDClassifier(
         alpha=1e-4, n_jobs=-1
     )),
-    # ('classifier', LinearSVC()),
-    # ('classifier', MultinomialNB())
 ])
 
 # Cross validate using k-fold
