@@ -12,7 +12,7 @@ def depth(field, n, sep=' > '):
     return sep.join(field.split(sep, n)[: n])
 
 # Category depth
-default_depth = 0
+default_depth = 2
 
 # Min n of samples per category
 min_samples = 50
